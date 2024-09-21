@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+	
+		
+	}
+
+    body{
+        background-color: #85212F;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+
+    .fade{
+        width: 100%;
+        height: 100%;
+    }
+
+    .box{
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .back-img{
+        background-image: url('img/beach2.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img1{
+        background-image: url('img/beach3.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .vail{
+
+        background-color: rgb(0, 0, 0, 0.5);
+        position: fixed;
+        z-index: 23;
+        width: 100%;
+        height: 100%;
+    }
+
+    .vail section{
+        display: inline-grid;
+    }
+
+    .text-slide{
+        background-color: transparent;
+        height: 17rem;
+        width: 22rem;
+        backdrop-filter: blur(1px);
+    }
+
+    .reg-form{
+        background-color: transparent;
+        height: 19rem;
+        width: 22rem;
+        backdrop-filter: blur(2px);
+
+    }
+
+    .text{
+        padding-top: 3rem;
+        padding-left: 2rem;
+    }
+
+    .text h2{
+        font-size: 30px;
+        color: aliceblue;
+    }
+
+    .text article{
+        font-size: 16px;
+        color: antiquewhite;
+        margin-top: 1rem;
+    
+    }
+
+    .social-media-icons{
+        margin-left: 3.5rem;
+        margin-top: 1rem;
+        color: azure;
+        margin-left: 0.7rem;
+    }
+
+
+    .social-media-icons i{
+        margin-left: 1rem;
+    }
+
+    .reg-form{
+        padding-left: 1rem;
+        padding-top: 1rem;
+        overflow: scroll;
+    }
+
+    .reg-form h2{
+        font-size: 25px;
+        color: aliceblue;
+        font-weight: lighter;
+    }
+
+    .name input{
+        width: 20rem;
+        height: 2rem;
+        background-color: transparent;
+        border-bottom: solid 1px #ccc;
+        margin-top: 2rem;
+    }
+
+
+    .sect{
+        display: inline-flex;
+        padding-top: 2rem;
+        gap: 2rem;
+    }
+
+    .sect button{
+        width: 7rem;
+        height: 2.5rem;
+        background-color: #E71737;
+        color: #ccc;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+
+    .sect p a{
+        color:aliceblue;
+        font-size: 14px;
+        position: relative;
+        top: 0.2rem;
+    }
+
+    #toggle-password{
+        width:4rem;
+        height: 2rem;
+        background-color: #E71737;
+        color: #ccc;
+        position: relative;
+        top: 0.4rem;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+
+
+
+        @media (min-width: 412px) {}
+
+        @media (min-width: 640px) {}
+
+        @media (min-width: 768px) {}
+
+        @media (min-width: 1024px) {}
+    
+        @media (min-width: 1280px) {
+            
+            .vail section{
+                display: inline-flex;
+            }
+
+            .text-slide{
+
+                background-color: transparent;
+                height: 39rem;
+                backdrop-filter: blur(1px);
+                width: 45rem;
+ 
+            }
+
+            .reg-form{
+                background-color:transparent;
+                height: 39rem;
+                width: 36rem;
+                backdrop-filter: blur(2px);
+            }
+
+            .text{
+                padding-top: 20rem;
+                padding-left: 4rem;
+            }
+
+
+            .text h2{
+                font-size: 30px;
+                color: aliceblue;
+            }
+
+            .text article{
+                font-size: 16px;
+                color: antiquewhite;
+                margin-top: 1rem;
+            
+            }
+
+            .social-media-icons{
+                margin-left: 3.5rem;
+                margin-top: 1rem;
+                color: azure;
+            }
+
+
+            .social-media-icons i{
+                margin-left: 1rem;
+            }
+
+
+            .reg-form{
+                padding-left: 3rem;
+                overflow: hidden;
+                padding-top: 10rem;
+            }
+
+            .reg-form h2{
+                font-size: 25px;
+                color: aliceblue;
+                font-weight: lighter;
+            }
+
+            .name input{
+                width: 25rem;
+                height: 2rem;
+                background-color: transparent;
+                border-bottom: solid 1px #ccc;
+                margin-top: 2rem;
+            }
+
+
+            .sect{
+                display: inline-flex;
+                padding-top: 2rem;
+                gap: 2rem;
+            }
+
+            .sect button{
+                width: 7rem;
+                height: 2.5rem;
+                background-color: #E71737;
+                color: #ccc;
+                cursor: pointer;
+                border-radius: 2px;
+            }
+
+            .sect p a{
+                color:aliceblue;
+                font-size: 14px;
+                position: relative;
+                top: 0.5rem;
+            }
+
+            #toggle-password{
+                width:4rem;
+                height: 2rem;
+                background-color: #E71737;
+                color: #ccc;
+                cursor: pointer;
+                border-radius: 2px;
+            }
+
+
+        }
