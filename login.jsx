@@ -16,6 +16,7 @@ window.onload = function(){
 }
 
 document.querySelector('#login-form').addEventListener('submit', function(e){
+    e.preventDefault()
     // input from HTML
     const loginEmail = document.querySelector('#login-email')
     const loginPassword = document.querySelector('#login-password')
